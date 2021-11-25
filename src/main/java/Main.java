@@ -16,13 +16,14 @@ public class Main {
 
 //        System.out.println(response.headers());
 //        System.out.println(response.body().string());
-        String cityCode = RequestHandler.detectCityId("Volgograd");
-        System.out.println(cityCode);
+//        String cityCode = RequestHandler.detectCityId("Volgograd");
+//        System.out.println(cityCode);
 //        String forecastOneDay = RequestHandler.getForecastsOneDay(cityCode);
 //        System.out.println("Прогноз на 1 день\n" + forecastOneDay);
-        String forecast = RequestHandler.getForecasts(cityCode);
-        System.out.println("Прогноз на 5 дней\n" + forecast);
-//        System.out.println(RequestFavQsAPI.quoteOfTheDay());
+//        String forecast = RequestHandler.getForecasts(cityCode);
+ //       System.out.println("Прогноз на 5 дней\n" + forecast);
+        System.out.println(RequestFavQsAPI.quoteOfTheDay()); /*новый запрос*/
 
     }
+   
 }
