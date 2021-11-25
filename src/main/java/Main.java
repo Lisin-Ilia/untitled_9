@@ -19,10 +19,10 @@ public class Main {
 //        String cityCode = RequestHandler.detectCityId("Volgograd");
 //        System.out.println(cityCode);
 //        String forecastOneDay = RequestHandler.getForecastsOneDay(cityCode);
-//        System.out.println("Прогноз на 1 день\n" + forecastOneDay);
+//        System.out.println("Прогноз на 1 день\n" + forecastOneDay);/* запрос погоды на 1 день */
 //        String forecast = RequestHandler.getForecasts(cityCode);
  //       System.out.println("Прогноз на 5 дней\n" + forecast);
-        System.out.println(RequestFavQsAPI.quoteOfTheDay()); /*новый запрос на получение цитат с api favqs.com*/
+        System.out.println(RequestFavQsAPI.quoteOfTheDay()); /*новый запрос на получение цитат с api favqs.com */
 
     }
    
